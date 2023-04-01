@@ -1,0 +1,22 @@
+*::after,
+*::before,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Arail", sans-serif;
+    transition: all 0.3s linear;
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+    height: auto;
+    vertical-align: middle;
+}
